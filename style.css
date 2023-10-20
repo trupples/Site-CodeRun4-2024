@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+    background-image: url(./fundal\ site3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+    min-height: 100vh;
+    
+}
+
+#navbar{
+    background-image: url(./navbar.png);
+}
+
+#background-video{
+    border-radius: 30px;
+    border: 10px;
+    border-color: black;
+}
