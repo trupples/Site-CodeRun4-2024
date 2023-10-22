@@ -19,3 +19,8 @@ body{
     border: 10px;
     border-color: black;
 }
+
+.footer{
+    background-image: url("./div.framer-u5253.png");
+    background-size: cover;
+}
