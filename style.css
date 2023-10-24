@@ -20,6 +20,27 @@ body{
     border-color: black;
 }
 
+#textbox{
+    height: 85%;
+}
+
+#guidelines{
+    background-image: url(./casetaabout.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+}
+
+#buton{
+    background-color: darkblue;
+}
+
+#demp{
+    text-align: center;
+    padding: 50%;
+
+}
+
 .footer{
     background-image: url("./div.framer-u5253.png");
     background-size: cover;

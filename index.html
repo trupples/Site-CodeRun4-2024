@@ -1,8 +1,8 @@
 <!DOCTYPE html >
-<html class="overflow-x-hidden">
+<html lang="en" class="overflow-x-hidden">
     <head>
         <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, max-scale=1.0" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
         <title>CodeRun 4</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
             integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
@@ -36,26 +36,67 @@
             </div>
         </div>
 
-        <div class="row-12 d-flex flex-row mx-4 my-5 justify-content-center" style="background-image: url(./text\ box.png); background-repeat: no-repeat; background-size:inherit; box-sizing:border-box; background-position: center;">
-                <p class="col-6 justify-content-center fs-6 px-2" style="box-sizing: content-box;">
+        <div class="row-12 d-flex flex-column mx-4 my-5 py-5 justify-content-center" id="textbox" style="background-image: url(./textbox.png); background-repeat: no-repeat; background-position: 50% 65%; background-size: 100% 120%;">
+                <p class=" col-7 justify-content-center fs-6 m-0 align-items-center text-center align-self-center" style="color: white; line-height: normal; padding-right: 10px;">
                     CodeRun is an IT marathon designed to innovate your experience around coding by challenging you to pass all the checkpoints throughout 
                         Cluj-Napoca.
-                        Checkpoints are represented by partnering companies. To pass them you’ll have to complete various coding tasks and gain points.You can either try to #jointhecoderunners by yourself or with up to two more friends.
+                        Checkpoints are represented by partnering companies. To pass them you’ll have to complete various coding tasks and gain points. You can either try to #jointhecoderunners by yourself or with up to two more friends.
                 </p>
-                <div class="col-6">
-                    a
-                </div> 
         </div>
+        <!-- <div class="d-flex flex-column justify-content-center" style="background-image: url(./countdowntocoderun.png); background-size: cover;"> -->
+            <img src="./countdowntocoderun.png" class="img-fluid" style="max-width: 100%; height: auto;">
+            <p id="demo" class="position-absolute"> 
+                <script>
+                    var countDownDate = new Date("Jan 5, 2024 15:37:25").getTime();
+                    // Update the count down every 1 second
+                    var x = setInterval(function() {
 
+                    // Get today's date and time
+                    var now = new Date().getTime();
+
+// Find the distance between now and the count down date
+                    var distance = countDownDate - now;
+
+// Time calculations for days, hours, minutes and seconds
+                    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+                    // Display the result in the element with id="demo"
+                    document.getElementById("demo").innerHTML = days + "d " + hours + "h "+ minutes + "m " + seconds + "s ";
+
+// If the count down is finished, write some text
+                    if (distance < 0) {
+                    clearInterval(x);
+                    document.getElementById("demo").innerHTML = "EXPIRED";
+                    }
+                    }, 1000);
+                </script>
+            </p>
+
+        </div>
+        <img src="./quote site phone.png" class="img-fluid d-flex flex-column align-items-center px-5" style="max-width: 130%; height: auto;">
+        <br>
+        <div class="d-flex flex-column justify-content-center align-items-center">
+            <div style="height: 30vh; width: 30vh; background-color: red;" >
+            </div>
+            <br>
+            <div class="d-flex flex-column justify-content-center align-items-center py-4 mx-5 px-3" style="background-position: 50% 60%;" id="guidelines">
+                <p style="color: white; font-size: normal; margin-bottom: 0;" class="px-4 align-items-center text-center">Check out the competition guidelines below</p>                
+                <br>
+                <a href="https://docs.google.com/document/d/1cNrs8-j1bJAetxSBKh3KNboIGjJC_pXkLcjuyS-gABM" id="buton" class="btn" type="button" role="button" data-bs-toggle="button">Learn more</a>
+            </div>
+        </div>
+        <br>
+        <br>
         
         
         
-        
-        
-    </div>        
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"></script>
+        crossorigin="anonymous"></scrip>
     </body>
     <footer class=" text-center text-lg-center footer">
         <div class="d-flex flex-column p-3">
