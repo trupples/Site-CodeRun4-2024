@@ -32,7 +32,8 @@ body{
 }
 
 #buton{
-    background-color: darkblue;
+    background-color: rgba(0, 0, 139, 0.4);
+    
 }
 
 #demp{
