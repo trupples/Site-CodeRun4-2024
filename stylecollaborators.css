@@ -1,0 +1,21 @@
+
+#navbar{
+    background-image: url(./navbar.png);
+}
+
+body{
+    margin: 0;
+    background-image: url(./fundal\ site3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:initial;
+    background-attachment: fixed;
+
+    min-height: 100vh;
+    
+}
+/* 
+.footer{
+    background-image: url("./div.framer-u5253.png");
+    background-size: cover;
+} */
