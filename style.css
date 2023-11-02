@@ -16,8 +16,17 @@ body{
     
 }
 
-#navbar{
+.navbar{
     background-image: url(./navbar.png);
+}
+
+.nav-logo{
+    max-width: 150px;
+}
+
+.navigation-tab{
+    color: white;
+     font-family: AdamWarren;
 }
 
 #background-video{
@@ -28,6 +37,10 @@ body{
 
 #textbox{
     height: 85%;
+    background-image: url(./textbox-horizontal.png);
+    background-repeat: no-repeat;
+    background-position: 50% 65%;
+    background-size: 100% 120%;
 }
 
 #guidelines{
@@ -48,7 +61,48 @@ body{
 
 }
 
+.countdown-section{
+    margin: 0 auto;
+    display: flex;
+    min-height: 20vh;
+    min-width: 90%;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.countdown-text{
+    color: wheat;
+    position: absolute;
+}
+
 .footer{
     background-image: url("./div.framer-u5253.png");
     background-size: cover;
+}
+
+.logo-section{
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-img{
+    max-width: 125px;
+}
+
+.footer-logo{
+    max-width: 50px;
+}
+
+@media  screen and (max-width: 703px) {
+    #textbox{
+        height: 100%;
+        background-image: url(./textbox.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    #textbox p{
+        font-size: 10px;
+    }
 }
