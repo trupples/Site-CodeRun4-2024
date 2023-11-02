@@ -1,4 +1,7 @@
-
+@font-face {
+    font-family: AdamWarren;
+    src: url(./adamwarrenpro.ttf);
+}
 #navbar{
     background-image: url(./navbar.png);
 }
