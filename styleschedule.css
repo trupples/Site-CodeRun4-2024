@@ -2,8 +2,17 @@
     font-family: AdamWarren;
     src: url(./adamwarrenpro.ttf);
 }
-#navbar{
+.navbar{
     background-image: url(./navbar.png);
+}
+
+.nav-logo{
+    max-width: 150px;
+}
+
+.navigation-tab{
+    color: white;
+     font-family: AdamWarren;
 }
 
 body{
@@ -17,8 +26,21 @@ body{
     min-height: 100vh;
     
 }
-/* 
+
 .footer{
     background-image: url("./div.framer-u5253.png");
     background-size: cover;
-} */
+}
+
+.logo-section{
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-img{
+    max-width: 125px;
+}
+
+.footer-logo{
+    max-width: 50px;
+}
