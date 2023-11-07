@@ -55,11 +55,25 @@ body{
     background-size: 100% 100% ;
     background-position: center;
 }
+
+.thanks1 {
+    background-image: url("./textbox-horizontal.png");
+    background-size: 100% 100%;
+    background-position: center;
+
+}
+
 @media screen and (max-width: 767.98px) {
     .thanks {
     background-image: url("./textbox-horizontal.png");
     background-size: 90% 140% ;
     background-position:center 40%;
     background-repeat: no-repeat;
+    }
+
+    .thanks1 {
+        background-size: 90% 140%;
+        background-position: center 50%;
+        background-repeat: no-repeat;
     }
 }
