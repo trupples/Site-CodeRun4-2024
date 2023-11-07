@@ -38,7 +38,7 @@ body{
 .footer{
     background-image: url("./div.framer-u5253.png");
     background-size: cover;
-    
+    background-position: center;
 }
 
 .logo-section{

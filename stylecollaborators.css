@@ -24,12 +24,13 @@ body{
     background-attachment: fixed;
 
     min-height: 100vh;
-    
+
 }
 
 .footer{
     background-image: url("./div.framer-u5253.png");
     background-size: cover;
+    background-position: center;
 }
 
 .logo-section{
@@ -43,4 +44,22 @@ body{
 
 .footer-logo{
     max-width: 50px;
+}
+
+.p {
+    font-size: 50vw;
+    color: white;
+}
+.thanks {
+    background-image: url("./textbox-horizontal.png");
+    background-size: 100% 100% ;
+    background-position: center;
+}
+@media screen and (max-width: 767.98px) {
+    .thanks {
+    background-image: url("./textbox-horizontal.png");
+    background-size: 90% 140% ;
+    background-position:center 40%;
+    background-repeat: no-repeat;
+    }
 }
