@@ -45,3 +45,11 @@ body{
 .footer-logo{
     max-width: 50px;
 }
+
+
+@media screen and (max-width: 767.98px) {
+    body{
+        background-attachment: fixed;
+    }
+    
+}
