@@ -71,6 +71,16 @@ body{
     width: 50%;
 }
 
+
+#text2{
+    font-family: AdamWarren;
+    color: white;
+    font-size: x-large;
+    margin-bottom: 15vh;
+    position: absolute;
+
+}
+
 .countdown-text{
     color: white;
     position: absolute;
@@ -103,6 +113,10 @@ body{
         background-image: url(./textbox.png);
         background-repeat: no-repeat;
         background-size: 90% 100%;
+    }
+
+    #text2{
+        font-size: medium;
     }
 
     #textbox p{
